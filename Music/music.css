@@ -1,0 +1,70 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body{
+    background: rgba(83, 128, 16, 0.486);
+}
+*{
+    margin: 0 auto;
+    padding: 0;
+    font-family: sans-serif;
+}
+nav{
+  font-family: Verdana,sans-serif;
+}
+nav ul{
+    display: flex;
+    list-style-type: none;
+    height: 60px;
+    background: rgb(51, 4, 4);
+    color: white;
+    align-items: center;
+}
+nav ul li{
+    padding: 0px 12px;
+}
+ #brand img{
+    padding: 8px;
+    width: 60px;
+    height: 60px;
+}
+#brand{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+
+}
+.container{
+    min-height: 70vh;
+    background-color: black;
+    color: wheat;
+    font-family: sans-serif;
+    display: flex;
+    margin: 23px auto;
+    width: 70%;
+    padding-bottom: 20px;
+    border-radius: 20px;
+    background-image: url("1.jpg");
+    background-size: cover;
+}
+.bottom{
+    position: sticky;
+    height: 100px;
+    background-color: black;
+    bottom: 0;
+    color: rgb(247, 245, 245);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.icons{
+    margin: 18px;
+    
+    font-size: 18px;
+}
+#myprograss{
+    width: 80vw;
+    text-align: center;
+}

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sticky Header Example</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    .fixed-header {
+      position: fixed;
+      top: 0;
+      width: 100%;
+      background-color: white;
+      z-index: 1000;
+      padding: 10px 0;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+    .content {
+      padding-top: 60px; /* Height of the header */
+    }
+  </style>
+</head>
+<body>
+
+<header class="fixed-header">
+  <nav>
+    <!-- Your navigation menu -->
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<div class="content">
+  <!-- Your page content -->
+  <section id="home">
+    <h1>Home</h1>
+    <p>Content for home section.</p>
+  </section>
+  <section id="about">
+    <h1>About</h1>
+    <p>Content for about section.</p>
+  </section>
+  <section id="services">
+    <h1>Services</h1>
+    <p>Content for services section.</p>
+  </section>
+  <section id="contact">
+    <h1>Contact</h1>
+    <p>Content for contact section.</p>
+  </section>
+</div>
+
+</body>
+</html>

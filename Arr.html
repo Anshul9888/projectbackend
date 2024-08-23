@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Hello india</h1>
+
+<p id="showdata"></p>
+    <script>
+ const student =[
+    {id: 1, name: "Anshul", degree: "BCA"},
+    {id: 1, name: "Anshul", degree: "BCA"},
+    {id: 1, name: "Anshul", degree: "BCA"},
+    {id: 1, name: "Anshul", degree: "BCA"},
+    {id: 1, name: "Anshul", degree: "BCA"},
+    {id: 1, name: "Anshul", degree: "BCA"},
+    {id: 1, name: "Anshul", degree: "BCA"},
+    {id: 1, name: "Anshul", degree: "BCA"},
+    {id: 1, name: "Anshul", degree: "BCA"},
+    {id: 1, name: "Anshul", degree: "BCA"},
+    {id: 1, name: "Anshul", degree: "BCA"},
+    {id: 1, name: "Anshul", degree: "BCA"},
+    {id: 1, name: "Anshul", degree: "BCA"},
+    {id: 1, name: "Anshul", degree: "BCA"},
+    {id: 1, name: "Anshul", degree: "BCA"},
+    {id: 1, name: "Anshul", degree: "BCA"},
+    {id: 1, name: "Anshul", degree: "BCA"},
+    {id: 1, name: "Anshul", degree: "BCA"},
+    {id: 1, name: "Anshul", degree: "BCA"},
+    {id: 1, name: "Anshul", degree: "BCA"},
+ ]
+ const newdata = student.map((cvalue)=> {
+    return `My name is ${cvalue.name}. My Higest Degree ${cvalue.degree}.`;
+ }) 
+console.log(newdata);
+document.getElementById('showdata').innerHTML = newdata;
+    </script>
+</body>
+</html>
